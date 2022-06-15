@@ -10,15 +10,42 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 }
+
 ul{
     display: inline;
-    color: #025157;
-    font-weight: 800;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     vertical-align: middle;
+    
+}
+
+ul > a {
+  color: #67b54b;
+  
 }
 
 header > * {
     display: inline-block;
-    margin: 40 0 20 20;
+    margin: 40 20 0;
 }
+
+.main{
+    margin-top: 140px;
+    text-align: center;
+}
+nav{
+    height: 45px;
+    color: #025157;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: 800;
+    font-family: sans-serif;
+ 
+}
+
+button {
+    color: white;  
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: none;
+    border-radius: 5px;
+ }
+ 
