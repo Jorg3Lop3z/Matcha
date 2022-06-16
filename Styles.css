@@ -1,52 +1,91 @@
-body{
-    background-color: #fffbf7;
+body {
+    background-color: #FFFbF7;
 }
-h1{
+
+h1 {
     color: #025157;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
 }
-p{
+
+/* Se agregaron Fonts de Google aquí y en h1, en la de aquí la inicial era Verdana  */
+p {
+    color: #8b8b8bcc;
+    text-align: center;
     color: #555454;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 }
 
-ul{
-    display: inline;
-    vertical-align: middle;
-    
+button {
+    color: #FFF;
+    background-color: #025157;
 }
 
-ul > a {
-  color: #67b54b;
-  
-}
-
-header > * {
-    display: inline-block;
-    margin: 40 20 0;
-}
-
-.main{
-    margin-top: 140px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-}
-nav{
+.header {
+    margin: 40px 20px 20px;
+    font-size: 0;
+    font-family: sans-serif;
     height: 45px;
-    color: #025157;
+}
+
+li{
+    display: inline;
     margin-left: 25px;
     margin-right: 25px;
-    font-weight: 800;
-    font-family: sans-serif;
- 
 }
 
-button {
-    color: white;  
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 45px;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 15%;
+}
+
+/* Aquí tuve dudas con la alineación, me quedó más arriba que el menú y tuve que agregar margin, pero estoy seguro que no es recomendable */
+.logo > img {
+    width: 15%;
+    margin: 20px;
+}
+
+.navbar {
+    width: 70%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+
+/* Aquí tuve dudas con la alineación, me quedó más arriba que el menú y tuve que agregar margin-top, pero estoy seguro que no es recomendable */
+.actions {
+    margin-top: 30px;
+    width: 15%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.main {
+    margin-top: 140px;
+    text-align: center;
+}
+
+.actions a {
+    color: #67b54b;
+}
+
+.actions button {
+    color: white;
     background-color: #67b54b;
-    padding: 12px 14px;
-    border: none;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
     border-radius: 5px;
- }
- 
+}
