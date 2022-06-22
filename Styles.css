@@ -142,3 +142,37 @@ body {
     width: 120px;
     margin-top: 10px;
   }
+
+  .features{
+    display: grid;
+    /* grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2, 1fr); */
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    padding: 30px;
+    margin-top: 200px;
+    gap: 20px;
+    background-color: #025157;
+  }
+
+  .tarjeta{
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    background-color: #fff;  
+    border: 0;  
+    border-radius: 5.5px;
+    
+    padding: 30px;
+    height: 330px;
+    width: 500px;
+  }
+
+.pic{
+  align-content: right;
+
+}
+
+  .tarjeta img{
+    height: 90%;
+    
+  }
+
