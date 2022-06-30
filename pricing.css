@@ -105,3 +105,12 @@ body {
   .faq .card .card-body a {
     color: #6abf4b;
   }
+
+  @media  (min-width: 576px) and (max-width: 679px) {
+    .casosestudio .logomambe{
+      object-fit: scale-down;
+      height: 6%;
+      width:20%;
+      /*top )*/
+    }
+    }
