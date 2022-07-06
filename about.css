@@ -75,5 +75,69 @@ body {
     animation: a1 5s;
   }
   @keyframes a1 {
-    50% {font-size: 35px;}
+    50% {font-size: 35  px;}
   }
+
+  width: 100%;
+
+
+.flecha {
+margin: 0 auto;
+height: 130px;
+width: 130px;
+margin-bottom: 35px;
+}
+
+.flecha .flecha-contenedor {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 65px;
+}
+.flecha .flecha-contenedor .flecha-animada {
+    position: absolute;
+    animation-name: up-and-down;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    height: 130px;
+    width: 130px;
+}
+.flecha .flecha-contenedor .flecha-animada img {
+      width: 130px;
+      transform: rotate(-90deg);
+      animation-name: up-and-down, alrededor;
+      animation-duration: 3s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      position: relative;
+    }
+  
+    @keyframes alrededor {
+        from {left: -270px;}
+        to {left: 270px;}
+      }
+  
+      @keyframes up-and-down {
+        0% {
+          top: 0;
+        }
+  
+        25% {
+          top: -30px;
+        }
+  
+        50% {
+          top: -60px;
+        }
+  
+        75% {
+          top: -30px;
+        }
+  
+        100% {
+          top: 0;
+        }
+    }
